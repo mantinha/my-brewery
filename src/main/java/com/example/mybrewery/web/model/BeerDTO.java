@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class BeerDTO {	
+public class BeerDTO {		
 	private UUID id;
 	private String beerName;
 	private String beerStyle;

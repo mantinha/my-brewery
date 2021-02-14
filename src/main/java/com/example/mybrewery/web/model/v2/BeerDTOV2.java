@@ -1,5 +1,7 @@
 package com.example.mybrewery.web.model.v2;
 
+import java.math.BigDecimal;
+import java.time.OffsetDateTime;
 import java.util.UUID;
 
 import lombok.AllArgsConstructor;
@@ -11,9 +13,15 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class BeerDTOV2 {
-	private UUID id;
+public class BeerDTOV2 {	
+	private BigDecimal price;
 	private String beerName;
 	private BeerStyleEnum beerStyle;
-	private Long upc;
+	private Integer quantityOnHand;
+	private Integer version;
+	private Long upc;	
+	private OffsetDateTime createdDate;
+	private OffsetDateTime lastModifiedDate;
+	private UUID id;
+	
 }
