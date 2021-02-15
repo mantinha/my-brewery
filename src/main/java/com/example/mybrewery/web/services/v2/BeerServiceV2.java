@@ -1,4 +1,4 @@
-package com.example.mybrewery.services.v2;
+package com.example.mybrewery.web.services.v2;
 
 import java.util.UUID;
 
